@@ -10,8 +10,12 @@
   <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />-->
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!-- Google Fonts Roboto -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <!-- MDB -->
   <link rel="stylesheet" href="css/mdb.min.css" />
   <link rel="stylesheet" href="css/colors.css" />
@@ -22,8 +26,10 @@
 <body>
   <!-- Start your project here-->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark  d-none js-pleca shadow-1-strong " style="z-index: 2000">
+    <nav class="navbar navbar-expand-lg navbar-dark  d-none js-pleca shadow-1-strong pt-0 " style="z-index: 2000">
+      <div class="uv-title float-end"><span>Universidad Veracruzana</span></div>
       <div class="container-fluid">
+       
         <a class="navbar-brand h1 fw-bold mr-4 mt-1" href="#">Procesos Psicológicos</a>
         <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
           aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,33 +50,26 @@
               <a class="nav-link disabled" href="#">Módulo 2</a>
             </li>
             <li class="nav-item float-end">
-              <button class="btn btn-floating btn-color" data-c="0" style="background-color:  #D81B60"></button>
-              <button class="btn btn-floating  btn-color "   style="background-color: #3949AB;" data-c="1"></button>
-              <button class="btn btn-floating  btn-color "   style="background-color: #00ACC1;" data-c="2"></button>
-              <button class="btn btn-floating  btn-color "   style="background-color: #7CB342;" data-c="3"></button>
-              <button class="btn btn-floating  btn-color "   style="background-color: #FFB300;" data-c="4"></button>
-              <button class="btn btn-floating  btn-color "  style="background-color: #263238;" data-c="5"></button>
+              <button class="btn btn-floating btn-color" data-c="0" style="background-color:  #009688"></button>
+              <button class="btn btn-floating  btn-color "   style="background-color: #9E9E9E;" data-c="1"></button>
+              <button class="btn btn-floating  btn-color "   style="background-color:  #CDDC39;" data-c="2"></button>
+              <button class="btn btn-floating  btn-color "   style="background-color: #F57F17;" data-c="3"></button>
+            
+              
             </li>
           </ul>
         </div>
       </div>
+      
     </nav>
     <!-- Background image -->
     <div id="intro" class="bg-image vh-100 shadow-1-strong">
-      <video style="min-width: 100%; min-height: 100%" playsinline autoplay muted loop>
-        <source class="h-100" src="video/titulo-principal.mp4" type="video/mp4" />
-      </video>
-      <div class="mask" style="
-            background: linear-gradient(
-              45deg,
-              rgba(var(--degrado-inicio), 0.7),
-              rgba(var(--degrado-fin), 0.7) 100%
-            );
-          ">
+ 
+      <div class="mask">
         <div class="container d-flex align-items-center justify-content-center text-center h-100">
           <div class="text-white">
             <h1 class="mb-3">
-              <p class="titulo-principal">Licenciatura en Psicología</p>
+              <p class="titulo-principal">Maestría en Administración en Sistemas de Salud</p>
               <p class="titulo-secundario">Procesos Psicológicos</p>
             </h1>
             <h5 class="mb-4"></h5>
@@ -86,7 +85,7 @@
       <section class="py-5 container">
         <div class="row">
           <div class="col-12 text-left mb-5">
-            <span class="titulo-seccion mx-auto"><i class="fa-solid fa-angle-right"></i> Unidad de competencia</span>
+            <span class="titulo-seccion mx-auto"><i class="icono fa-solid fa-crosshairs"></i> Unidad de competencia</span>
           </div>
           <div class="col-12">
             <p class="parrafo">
@@ -100,11 +99,11 @@
           </div>
         </div>
       </section>
-      <section class="py-5 container-fluid bg-secundario">
+      <section class="py-5 container-fluid bg-temario">
         <div class="container">
           <div class="row">
             <div class="col-12 left mb-5">
-              <span class="titulo-seccion text-center"><i class="fa-solid fa-angle-right"></i> Contexto</span>
+              <span class="titulo-seccion text-center"><i class="icono fa-solid fa-magnifying-glass"></i> Contexto</span>
             </div>
             <div class="col-12">
               <p class="parrafo">
@@ -119,7 +118,7 @@
       <section class="container py-5">
         <div class="row no-gutters d-flex justify-content-center">
           <div class="col-12 text-left mb-5">
-            <span class="titulo-seccion"><i class="fa-solid fa-angle-right"></i> Experto en contenido </span>
+            <span class="titulo-seccion"><i class="icono fa-solid fa-person-chalkboard"></i> Experto en contenido </span>
           </div>
           <div class="col-10 col-md-6">
             <div class="card mb-3">
@@ -180,7 +179,7 @@
       <section class="container py-5">
         <div class="row">
           <div class="col-12 text-left mb-5">
-            <span class="titulo-seccion"><i class="fa-solid fa-angle-right"></i> Introducción </span>
+            <span class="titulo-seccion"><i class="icono fa-solid fa-right-to-bracket"></i> Introducción </span>
           </div>
           <div class="col-12">
             <div class="row g-0">
@@ -218,7 +217,7 @@
       <section class="container py-5">
         <div class="row">
           <div class="col-12 text-left mb-5">
-            <span class="titulo-seccion"><i class="fa-solid fa-people-group me-2"></i>Foro de inicio</span>
+            <span class="titulo-seccion"><i class="icono fa-solid fa-people-group me-2"></i>Foro de inicio</span>
           </div>
           <div class="col-12">
             <p class="parrafo">
@@ -240,7 +239,7 @@
         <div class="container">
           <div class="row">
             <div class="col-12 text-left  mb-5">
-              <span class="titulo-seccion text-center"><i class="fa-solid fa-angle-right"></i> Temario</span>
+              <span class="titulo-seccion text-center"><i class="icono fa-solid fa-list-ol"></i> Temario</span>
             </div>
             <div class="col-12">
               <div class="row g-0 d-flex justify-content-evenly">
@@ -266,7 +265,7 @@
         <div class="row g-0">
 
           <div class="col-12 text-left  mb-5">
-            <span class="titulo-seccion text-center"><i class="fa-solid fa-angle-right"></i> Referencias</span>
+            <span class="titulo-seccion text-center"><i class="icono fa-regular fa-folder-open"></i> Referencias</span>
           </div>
           <div class="d-none d-md-block">
             <a class="btn bg-primario btn-lg col-12 mb-3" data-mdb-toggle="collapse" href="#collapseWithScrollbar1"
@@ -571,7 +570,7 @@
         </div>
       </section>
       <section>
-        <div class="row"><div class="col-12 text-center my-4"> <a href="https://lienzos.uv.mx/Uploads/resources/INICIO_ProcesosPsic_F2_2971.pdf"  class="btn btn-lg bg-primario mx-auto" target="_blank">Descargar Inicio</a></div></div>
+        <div class="row"><div class="col-12 text-center my-4"> <a href="descargables/02_INICIO.pdf"  class="btn btn-lg bg-primario mx-auto" target="_blank"><i class="fa-solid fa-file-pdf me-2"></i>Descargar Inicio</a></div></div>
        
       </section>
       <div>
@@ -585,7 +584,7 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header bg-secundario">
-          <h5 class="modal-title  " id="exampleModalLabel">
+          <h5 class="modal-title parrafo " id="exampleModalLabel">
             Félix Ángel Montero Domínguez
           </h5>
           <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>

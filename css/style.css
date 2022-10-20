@@ -5,7 +5,40 @@
   }
 }
 
+.uv-title {
+  font-size: 18px !important;
+  line-height: 25px !important;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
+  text-rendering: auto !important;
+  -webkit-font-smoothing: auto !important;
+  -webkit-tap-highlight-color: black !important;
+  padding: 0 8;
+}
+a.navbar-brand {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.uv-title {
+  /* margin: 0 0 12px 0; */
+  /* text-align: center; */
+  /* vertical-align: middle; */
+  background-color: #0d47a1;
+  /* padding: 0; */
+}
+
+.uv-title span{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
 .navbar .nav-link {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1rem;
   color: #fff !important;
 }
 
@@ -16,7 +49,10 @@
   rgba(var(--degrado-fin), 1) 100%);
 }
 
- 
+ .btn{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+ }
 
 .bg-primario {
   background-color: var(--primario);
@@ -25,6 +61,16 @@
 
 .bg-primario:hover {
   background-color: var(--primario-hover);  color: #000;
+}
+
+.bg-primario.active{
+  background-color: var(--primario-hover);
+    color: #000;
+}
+
+.bg-primario[aria-expanded="true"] {
+  background-color: var(--primario-hover);
+  color: #000;
 }
 
  
@@ -41,39 +87,52 @@
 
 .bg-temario {
   background-color:var(--fondo-secundario);
+  color:#000;
 }
 
 .bg-temario .titulo-seccion {
-  color: var(--subtitulos);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:#fff;
+  font-family: 'Fira Sans', sans-serif;
+
 }
 
 
 .titulo-seccion {
-  font-size: 1.8rem;
-  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.81rem;
+  font-weight: 600;
   color: var(--subtitulos);
+  text-transform: uppercase;
+
+   
 
 }
 
 .titulo-contenido {
-  font-size: 1.4rem;
-  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.81rem;
+  font-weight: 600;
   color: var(--subtitulos);
+  text-transform: uppercase;
 
 }
 
 .parrafo {
   font-size: 1rem;
-  margin-bottom: 1rem;
-  font-family: 'Poppins';
+  margin-bottom: 0rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .titulo-modulo {
-  font-size: 1.6rem;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 2.5rem;
   font-weight: 700;
   color:  var(--secundario);
   border-bottom: var(--primario) 4px solid;
+}
+
+.titulo-modulo span {
+  color:  var(--primario);
 }
 
 
@@ -81,11 +140,16 @@
   width: 100%;
   height: 4px;
   background-color: var(--primario);
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.icono{
+  color:var(--secundario);
 }
 
 @media screen and (min-width: 768px) {
   .parrafo {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .titulo-seccion {
@@ -95,6 +159,9 @@
   .titulo-modulo {
     font-size: 3rem;
 
+  }
+  .btn{
+    font-size: 1.2rem;
   }
 }
 
@@ -218,20 +285,21 @@ a {
 
 
 .texto-instruccion {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
   color: #007C32;
-  font-weight: 500;
+  font-weight: 700;
 }
 
+.color4{
+  background-color: var(--fondo-secundario);
+}
 
 a.btn.btn-primary[aria-expanded="true"] {
   background: red !important;
 }
 
-.accordion-button:not(.collapsed) {
-  color: #3b71ca;
-  background-color: #fff;
-  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
-}
+
 
 
 .nav-tabs .nav-item.show .nav-link,
@@ -260,3 +328,26 @@ a.btn.btn-primary[aria-expanded="true"] {
 .btn{
   text-transform: none;
 }
+
+.accordion-button{
+  font-family: 'Poppins', sans-serif;
+}
+
+.accordion-button:after {
+  content: '\f106';
+  font: var(--fa-font-solid);
+  background-image: none;
+  color: #fff;
+}
+
+.accordion-button:not(.collapsed):after {
+  
+    background-image: none;
+    
+  
+}
+
+.boton-ventana{
+  padding-bottom: 100%;
+}
+ 
