@@ -135,6 +135,9 @@ a.navbar-brand {
   color:  var(--primario);
 }
 
+.titulo-card{
+  color:var(--subtitulos);
+}
 
 .adorno-titulo {
   width: 100%;
