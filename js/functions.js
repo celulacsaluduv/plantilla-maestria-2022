@@ -67,9 +67,9 @@ let colores = [
   {
     "primario": "#18529D",
     "primario-over": "#FFE082",
-    "secundario": "#CDDC39",
+    "secundario": "#AFB42B",
     "fondo-secundario": "#FFF59D",
-    "subtitulos": "#CDDC39",
+    "subtitulos": "#AFB42B",
     "degrado-inicio": "24,82,157",
     "degrado-fin":"205, 220, 57",
   },
