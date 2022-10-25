@@ -60,9 +60,9 @@ let colores = [
     "primario-over": "#86CABF",
     "secundario": "#9E9E9E",
     "fondo-secundario": "#B2DFDB",
-    "subtitulos": "#009688",
+    "subtitulos": "#9E9E9E",
     "degrado-inicio": "24,82,157",
-    "degrado-fin":"0, 150, 136",
+    "degrado-fin":"158, 158, 158",
   },
   {
     "primario": "#18529D",
@@ -78,9 +78,9 @@ let colores = [
     "primario-over": "#FFE082",
     "secundario": "#F57F17",
     "fondo-secundario": "#FFF59D",
-    "subtitulos": "#CDDC39",
+    "subtitulos": "#F57F17",
     "degrado-inicio": "24,82,157",
-    "degrado-fin":"205, 220, 57",
+    "degrado-fin":"245, 127, 23",
   },
   {
     "primario": "#18529D",

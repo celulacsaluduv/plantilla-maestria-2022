@@ -96,6 +96,16 @@ a.navbar-brand {
 
 }
 
+.bg-fondo {
+  background-color: var(--fondo-secundario);
+  color: #000;
+}
+
+.bg-fondo .titulo-seccion {
+  color: #fff;
+  font-family: 'Fira Sans', sans-serif;
+
+}
 
 .titulo-seccion {
   font-family: 'Fira Sans', sans-serif;
