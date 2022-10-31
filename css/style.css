@@ -91,6 +91,17 @@ a.navbar-brand {
 }
 
 .bg-temario .titulo-seccion {
+
+  font-family: 'Fira Sans', sans-serif;
+
+}
+
+.bg-fondo {
+  background-color:var(--fondo-secundario);
+  color:#000;
+}
+
+.bg-fondo .titulo-seccion {
   color:#fff;
   font-family: 'Fira Sans', sans-serif;
 
